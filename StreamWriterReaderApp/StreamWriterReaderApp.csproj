@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{82E09E1C-EA22-429B-A920-BC57BE13032D}</ProjectGuid>
+    <ProjectGuid>{0040E615-AD32-4334-907B-C8AEFD0638A9}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>IssuesWithNonGenericCollections</RootNamespace>
-    <AssemblyName>IssuesWithNonGenericCollections</AssemblyName>
+    <RootNamespace>StreamWriterReaderApp</RootNamespace>
+    <AssemblyName>StreamWriterReaderApp</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,8 +41,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Person.cs" />
-    <Compile Include="PersonCollection.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

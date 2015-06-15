@@ -15,9 +15,12 @@ namespace CarEvents
             Car c1 = new Car("SlugBug", 100, 10);
 
             // Register event handlers.
-            c1.AboutToBlow += CarIsAlmostDoomed;
-            c1.AboutToBlow += CarAboutToBlow;                      
-            c1.Exploded += CarExploded;
+            //c1.AboutToBlow += CarIsAlmostDoomed;
+            //c1.AboutToBlow += CarAboutToBlow;                      
+            //c1.Exploded += CarExploded;
+
+            c1.AboutToBlow += (sender, e) => { Console.WriteLine(e.msg); };
+            c1.Exploded += (sender, e) => { Console.WriteLine(e.msg); };
 
             Console.WriteLine("Speeding up...");
             for (int i = 0; i < 6; i++)
@@ -25,14 +28,14 @@ namespace CarEvents
                 c1.Accelerate(20);
             }
 
-            // Remove CarExploded method from invocation list.
-            c1.Exploded -= CarExploded;
+            //// Remove CarExploded method from invocation list.
+            //c1.Exploded -= CarExploded;
 
-            Console.WriteLine("Speeding up");
-            for (int i = 0; i < 6; i++)
-            {
-                c1.Accelerate(20);
-            }
+            //Console.WriteLine("Speeding up");
+            //for (int i = 0; i < 6; i++)
+            //{
+            //    c1.Accelerate(20);
+            //}
 
             Console.ReadLine();
         }
