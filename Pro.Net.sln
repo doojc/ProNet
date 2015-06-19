@@ -129,6 +129,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataProviderFactory", "Data
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoLotDataReader", "AutoLotDataReader\AutoLotDataReader.csproj", "{E3385E62-2BB8-4EB5-855D-EA0663216D48}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoLotDAL", "AutoLotDAL\AutoLotDAL.csproj", "{ABD774C8-F13B-4092-9B9C-37C63175CD3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoLotCUIClient", "AutoLotCUIClient\AutoLotCUIClient.csproj", "{82F56E3F-2DDE-4F7D-917C-FBF4352218F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -387,6 +391,14 @@ Global
 		{E3385E62-2BB8-4EB5-855D-EA0663216D48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3385E62-2BB8-4EB5-855D-EA0663216D48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3385E62-2BB8-4EB5-855D-EA0663216D48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABD774C8-F13B-4092-9B9C-37C63175CD3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABD774C8-F13B-4092-9B9C-37C63175CD3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABD774C8-F13B-4092-9B9C-37C63175CD3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABD774C8-F13B-4092-9B9C-37C63175CD3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82F56E3F-2DDE-4F7D-917C-FBF4352218F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82F56E3F-2DDE-4F7D-917C-FBF4352218F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82F56E3F-2DDE-4F7D-917C-FBF4352218F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82F56E3F-2DDE-4F7D-917C-FBF4352218F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
