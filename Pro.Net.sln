@@ -149,6 +149,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqToXmlFirstLook", "LinqT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqToXmlWinApp", "LinqToXmlWinApp\LinqToXmlWinApp.csproj", "{C40D5CCE-5020-42E1-BA0C-595C9B8ACD6E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicEightBallServiceLib", "MagicEightBallServiceLib\MagicEightBallServiceLib.csproj", "{7354A261-4B81-4B03-A73E-8532F3D9358C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicEightBallServiceHost", "MagicEightBallServiceHost\MagicEightBallServiceHost.csproj", "{24DD36B7-2CA4-41B7-948E-0CA77B4216D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicEightBallServiceClient", "MagicEightBallServiceClient\MagicEightBallServiceClient.csproj", "{85C1C4DA-23AF-47BC-8D08-CE90F047D371}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathServiceLibrary", "MathServiceLibrary\MathServiceLibrary.csproj", "{DFEC419A-6274-4B05-BFB9-A4E6F83B0FDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathWindowsServiceHost", "MathWindowsServiceHost\MathWindowsServiceHost.csproj", "{EA121F0D-F62F-4259-A060-0941B63FA3F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathClient", "MathClient\MathClient.csproj", "{131ED2F5-17B4-43FF-8B99-115D8D7EF262}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -447,6 +459,30 @@ Global
 		{C40D5CCE-5020-42E1-BA0C-595C9B8ACD6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C40D5CCE-5020-42E1-BA0C-595C9B8ACD6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C40D5CCE-5020-42E1-BA0C-595C9B8ACD6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7354A261-4B81-4B03-A73E-8532F3D9358C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7354A261-4B81-4B03-A73E-8532F3D9358C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7354A261-4B81-4B03-A73E-8532F3D9358C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7354A261-4B81-4B03-A73E-8532F3D9358C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24DD36B7-2CA4-41B7-948E-0CA77B4216D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24DD36B7-2CA4-41B7-948E-0CA77B4216D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24DD36B7-2CA4-41B7-948E-0CA77B4216D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24DD36B7-2CA4-41B7-948E-0CA77B4216D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85C1C4DA-23AF-47BC-8D08-CE90F047D371}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85C1C4DA-23AF-47BC-8D08-CE90F047D371}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85C1C4DA-23AF-47BC-8D08-CE90F047D371}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85C1C4DA-23AF-47BC-8D08-CE90F047D371}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFEC419A-6274-4B05-BFB9-A4E6F83B0FDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFEC419A-6274-4B05-BFB9-A4E6F83B0FDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFEC419A-6274-4B05-BFB9-A4E6F83B0FDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFEC419A-6274-4B05-BFB9-A4E6F83B0FDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA121F0D-F62F-4259-A060-0941B63FA3F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA121F0D-F62F-4259-A060-0941B63FA3F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA121F0D-F62F-4259-A060-0941B63FA3F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA121F0D-F62F-4259-A060-0941B63FA3F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{131ED2F5-17B4-43FF-8B99-115D8D7EF262}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{131ED2F5-17B4-43FF-8B99-115D8D7EF262}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{131ED2F5-17B4-43FF-8B99-115D8D7EF262}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{131ED2F5-17B4-43FF-8B99-115D8D7EF262}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
